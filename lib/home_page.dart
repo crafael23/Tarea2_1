@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({super.key, this.name = '', this.email = ''});
+  const HomePage({super.key, required this.email});
 
-  final String name;
   final String email;
 
   @override
@@ -19,7 +18,6 @@ class HomePage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text('Username: $name'),
                 Text('Email: $email'),
               ],
             ),
