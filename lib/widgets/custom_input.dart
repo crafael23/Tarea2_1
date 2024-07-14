@@ -32,11 +32,6 @@ class CustomInput extends StatelessWidget {
       obscureText: obscureText,
       decoration: InputDecoration(
         hintText: 'Ingrese su $label',
-        // prefix: Icon(Icons.person),
-        // error: Icon(Icons.error),
-        // errorText: errorText,
-        //? InkResponse, Inkwel, GestureDetector => proporcionan interactividad con
-        //? cualquier widget que no tenga posibilidad de detectar eventos
         suffix: InkResponse(
           splashColor: Colors.teal[50],
           // muestra un efecto de Ripple

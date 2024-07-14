@@ -19,8 +19,13 @@ class HomePage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+<<<<<<< HEAD
                 Text('Username: $name'),
                 Text('Email: $email'),
+=======
+                Text('Username: $username'),
+                Text('Email: $useremail'),
+>>>>>>> c80361e (Commit porque no me deja hacer pull)
               ],
             ),
           ),

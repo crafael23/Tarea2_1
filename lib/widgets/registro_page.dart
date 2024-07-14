@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 import 'custom_input.dart';
@@ -20,6 +19,8 @@ class RegistroPage extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Registro'),
+          centerTitle: true,
+          automaticallyImplyLeading: false,
         ),
         body: Padding(
           padding: const EdgeInsets.all(16),
@@ -38,7 +39,6 @@ class RegistroPage extends StatelessWidget {
                       return null;
                     },
                   ),
-                  
                   CustomInput(
                     controller: correoController,
                     label: 'Correo',
@@ -56,7 +56,6 @@ class RegistroPage extends StatelessWidget {
                       return null;
                     },
                   ),
-                  
                   CustomInput(
                     controller: telefonoController,
                     label: 'Telefono',
@@ -75,7 +74,6 @@ class RegistroPage extends StatelessWidget {
                       return null;
                     },
                   ),
-                  
                   CustomInput(
                     controller: contraseniaController,
                     label: 'Contraseña',

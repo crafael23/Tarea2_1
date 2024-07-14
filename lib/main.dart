@@ -8,6 +8,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+<<<<<<< HEAD
   MyApp({super.key});
 
   final users = {
@@ -15,6 +16,10 @@ class MyApp extends StatelessWidget {
     'omar.diaz@unah.hn': '20192001399',
   };
 
+=======
+  const MyApp({super.key});
+  
+>>>>>>> c80361e (Commit porque no me deja hacer pull)
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -25,7 +30,11 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: 'login',
       routes: {
+<<<<<<< HEAD
         "login": (context) => const LoginPage(),
+=======
+        "login": (context) => LoginPage(),
+>>>>>>> c80361e (Commit porque no me deja hacer pull)
         'home': (context) => const HomePage(),
         'registro': (context) => RegistroPage(),
       },
